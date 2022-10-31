@@ -12,4 +12,6 @@ export default {
   image_3,
   image_4,
   image_5,
+  image_6,
+  image_7
 };
