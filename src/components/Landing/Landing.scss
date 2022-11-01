@@ -1,0 +1,20 @@
+@mixin flexCenter($height) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $height;
+}
+
+.main-container {
+  @include flexCenter(110vh);
+  background: url("../../images/miggy_4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  letter-spacing: 50px;
+  color: white;
+}

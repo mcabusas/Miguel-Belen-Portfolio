@@ -1,11 +1,13 @@
 import React from "react";
-
+import "./Landing.scss";
 const Landing: React.FC = () => {
   return (
-    <div>
-      <h1>
-        Landing component for this page and this is from the second commit.
-      </h1>
+    <div className="main-container">
+      <div id="container-title">
+        <h1 className="title">Miguel Belen</h1>
+      </div>
+
+      
     </div>
   );
 };
