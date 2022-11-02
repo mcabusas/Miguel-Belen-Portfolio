@@ -16,6 +16,7 @@
     "framer-motion": "^7.6.2",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
+    "react-component-analyzer": "^1.0.53",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.55.0",
